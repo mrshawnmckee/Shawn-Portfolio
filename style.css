@@ -5,7 +5,24 @@
 }
 
 .container {
-    background-color:burlywood;
+
+
+}
+
+.heading {
+    background-image: url('img/annie-spratt-6a3nqQ1YwBw-unsplash.jpg');
+    height: 100vh;
+}
+.name {
     color: #fff;
+    position: relative;
+    left: 25%;
+    top: 25%;
+}
+.description {
+    color: #fff;
+    position: relative;
+    left: 25%;
+    top: 25%;
 }
 
