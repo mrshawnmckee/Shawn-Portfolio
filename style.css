@@ -5,24 +5,44 @@
 }
 
 .container {
-
-
-}
-
-.heading {
     background-image: url('img/annie-spratt-6a3nqQ1YwBw-unsplash.jpg');
     height: 100vh;
 }
+
+.navbar {
+    display: flex;
+    justify-content: row;
+    margin: 5%;
+}
+
+.nav1 {
+    padding-right: 10%;
+}
+.navs {
+    font-size: 20px;
+    color:beige;
+    margin: 2% 5%;
+}
+.heading {
+
+}
 .name {
-    color: #fff;
+    color: beige;
     position: relative;
     left: 25%;
     top: 25%;
 }
 .description {
-    color: #fff;
+    color: beige;
     position: relative;
     left: 25%;
     top: 25%;
 }
 
+.skills {
+    
+}
+
+/* Drop DOwn */
+/* https://codepen.io/alvarotrigo/pen/vYRVbzK 
+https://alvarotrigo.com/blog/drop-down-menu-javascript/ */
