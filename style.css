@@ -15,16 +15,24 @@
     margin: 5%;
 }
 
-.nav1 {
+.nav1 a{
+
     padding-right: 10%;
+    text-decoration: none;
+    color:beige;
 }
 .navs {
     font-size: 20px;
     color:beige;
     margin: 2% 5%;
 }
-.heading {
 
+.about-link {
+    text-decoration: none;
+    color:beige;
+}
+.heading {
+    color:beige;
 }
 .name {
     color: beige;
@@ -40,7 +48,9 @@
 }
 
 .skills {
-    
+    color: beige;
+    position: relative;
+    margin: 20% 15%;
 }
 
 /* Drop DOwn */
