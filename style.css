@@ -7,7 +7,8 @@
 .container {
     background-image: url('img/annie-spratt-6a3nqQ1YwBw-unsplash.jpg');
     background-size: cover; 
-    /* height: 100vh; */
+    height: 100vh;
+    width: 100vw;
 }
 
 .navbar {
