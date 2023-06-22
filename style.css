@@ -6,7 +6,8 @@
 
 .container {
     background-image: url('img/annie-spratt-6a3nqQ1YwBw-unsplash.jpg');
-    height: 100vh;
+    background-size: cover; 
+    /* height: 100vh; */
 }
 
 .navbar {
@@ -16,7 +17,6 @@
 }
 
 .nav1 a{
-
     padding-right: 10%;
     text-decoration: none;
     color:beige;
@@ -53,16 +53,26 @@
     margin: 20% 15%;
 }
 
+.skill-type {
+    margin: 2% 0;
+    font-size: 1.5em;
+}
+
+.about {
+    margin: 5px;
+}
 .contact-heading {
     color: beige;
     margin: 5%;
 }
 .github {
-    margin:5%;
+    margin:10%;
+    height: 10px;
 }
 
 .email {
-
+    font-size: 2em;
+    margin: 5px;
 }
 /* Drop DOwn */
 /* https://codepen.io/alvarotrigo/pen/vYRVbzK 
