@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+:root {
+    --font-color: beige;
+    /* This makes the links scroll, intead of going straight to position */
+    scroll-behavior:smooth;
+}
+
 .container {
     background-image: url('img/annie-spratt-6a3nqQ1YwBw-unsplash.jpg');
     background-size: cover; 
@@ -11,6 +17,7 @@
     width: auto;
 }
 
+/* NavBar */
 .navbar {
     display: flex;
     justify-content: row;
@@ -20,54 +27,98 @@
 .nav1 a{
     padding-right: 10%;
     text-decoration: none;
-    color:beige;
+    color:var(--font-color);
 }
 .navs {
     font-size: 20px;
-    color:beige;
+    color:var(--font-color);
     margin: 2% 5%;
 }
 
+
+
 .link, .backToTop{
     text-decoration: none;
-    color:beige;
+    color:var(--font-color);
 }
-.heading, .proj {
-    color:beige;
+
+.heading, .projects {
+    color:var(--font-color);
 }
 .name {
-    color: beige;
+    color: var(--font-color);
     position: relative;
     left: 25%;
     margin-top: 5%;
 }
 .description {
-    color: beige;
+    color: var(--font-color);
     position: relative;
     left: 25%;
     top: 25%;
 }
 
 .skills {
-    color: beige;
+    color: var(--font-color);
     position: relative;
-    margin: 10% 15%;
-}
-
-.proj {
     margin: 5% 15%;
 }
+
 
 .skill-type {
     margin: 2% 0;
     font-size: 1.5em;
 }
 
-.about {
-    margin: 5px;
+/* Project section */
+
+#projects {
+    display: flex;
 }
+.projects {
+    /* border: 2px solid white; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 10%;
+
+}
+
+.thecard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 5px;;
+    margin: 5%;
+    width: 45%;
+    height: 50px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* About section */
+
+
+.about {
+    margin-left: 5%;
+    width: 50%;
+}
+
+/* Contct section */
+
 .contact-heading {
-    color: beige;
+    color: var(--font-color);
     margin: 5%;
 }
 .github {
@@ -80,9 +131,10 @@
     margin: 5px;
 }
 
-.backToTop {
 
+/* Bacj to top and scroll */
+
+
+.backToTop {
+    margin: 5%;
 }
-/* Drop DOwn */
-/* https://codepen.io/alvarotrigo/pen/vYRVbzK 
-https://alvarotrigo.com/blog/drop-down-menu-javascript/ */
