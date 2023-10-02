@@ -92,6 +92,7 @@
     justify-content: center;
 }
 .card{
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,11 +101,24 @@
     border-radius: 5px;;
     margin: 5%;
     width: 45%;
-    height: 50px;
+    height: 100px;
+}
+
+.hikeCard {
+    background-image: linear-gradient(to right bottom,
+    rgba(128, 214, 113, 0.803),
+    rgba(40, 180, 133, 0.803)),url("./img/harris-lake.jpg");
+    background-size: cover;
+}
+
+.todoCard {
+    background-image: url("./img/ToDoListSS.png");
+    background-size: cover;
 }
 
 .card:hover {
     transform: scale(1.05);
+    color: #daa520;
 }
 
 /* About section */
