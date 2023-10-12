@@ -116,6 +116,11 @@
     background-size: cover;
 }
 
+.drawCard{
+    background-image: url("./img/DrawApp.png");
+    background-size: cover;
+}
+
 .card:hover {
     transform: scale(1.05);
     color: #daa520;
