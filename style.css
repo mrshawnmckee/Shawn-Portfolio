@@ -72,7 +72,7 @@
 
 /* Project section */
 
-#projects {
+#projects, #projects2 {
     display: flex;
 }
 .projects {
