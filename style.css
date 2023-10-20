@@ -110,6 +110,10 @@
     rgba(40, 180, 133, 0.803)),url("./img/harris-lake.jpg");
     background-size: cover;
 }
+.weatherCard {
+    background-image: url("./img/weatherApp.png");
+    background-size: cover;
+}
 
 .todoCard {
     background-image: url("./img/ToDoListSS.png");
@@ -151,7 +155,7 @@
 }
 
 
-/* Bacj to top and scroll */
+/* Back to top and scroll */
 
 
 .backToTop {
