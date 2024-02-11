@@ -13,8 +13,8 @@
 .container {
     background-image: url('img/annie-spratt-6a3nqQ1YwBw-unsplash.jpg');
     background-size: cover; 
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 
 /* NavBar */
@@ -48,13 +48,15 @@
 .name {
     color: var(--font-color);
     position: relative;
-    left: 25%;
+    /* left: 25%; */
+    margin-left: 25%;
     margin-top: 5%;
 }
 .description {
     color: var(--font-color);
     position: relative;
-    left: 25%;
+    /* left: 25%; */
+    margin-left: 25%;
     top: 25%;
 }
 
